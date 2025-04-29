@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-start-here-05" />
+        <module name="spring-start-here-04" />
+        <module name="spring-start-here-03" />
+        <module name="spring-start-here-02" />
+        <module name="spring-start-here-ex4" />
+        <module name="spring-start-here-01" />
+        <module name="spring-start-here-00" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-start-here-04" options="-parameters" />
+      <module name="spring-start-here-05" options="-parameters" />
+    </option>
+  </component>
+</project>
